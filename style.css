@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(3, 4, 70);
+}
+.container{
+    margin-left: 10%;
+    width: 80%;
+    height:700px;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+header{
+    display: flex;
+    flex-grow: inherit;
+    background-color: rgb(170, 212, 0);
+    border: 4px solid rgb(19,129,34);
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    padding: 2%;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    height: 10%;
+    background-color: rgb(38, 82, 176);
+    border: 5px solid rgb(0,0,0);
+    width: 100%;
+    border-radius: 15px;
+    list-style: none;
+    justify-items: center;
+    text-align: center;
+    
+}
+li{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    width: 100%;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.dog{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    height: 180px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    height: 150px;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    height: 80%;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    height: 150px; 
+    width: 150px;
+    color: rgb(255, 203, 0);
+    text-decoration-color: black;
+}
+::selection{
+    background-color: rgb(139, 117, 17);
+    color: rgb(255, 255, 255);
+}
+li:hover{
+    color: rgb(170, 212, 0);
+    font-size: 20px;
+}
+.logo:hover{
+    height: 170px;
+    width: 170px;
+}
