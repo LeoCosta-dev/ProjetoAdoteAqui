@@ -1,10 +1,12 @@
 body{
     background-color: rgb(3, 4, 70);
+    display: flex;
+    justify-content: center;
+    height: 1000px;
 }
 .container{
-    margin-left: 10%;
     width: 80%;
-    height:700px;
+    height:100%;
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(3, 4, 70);
@@ -44,18 +46,19 @@ li{
     width: 100%;
     justify-content: center;
     color: rgb(255, 255, 255);
+    font-size: 130%;
 }
 .dog{
     display: flex;
     flex-direction: row;
     flex-grow: inherit;
-    height: 180px;
+    height: 100%;
 }
 .logo{
     display: flex;
     flex-direction: row;
     flex-grow: inherit;
-    height: 150px;
+    height: 95%;
 }
 .box1{
     display: flex;
@@ -86,11 +89,10 @@ h1{
 }
 li:hover{
     color: rgb(170, 212, 0);
-    font-size: 20px;
+    font-size: 140%;
 }
 .logo:hover{
-    height: 170px;
-    width: 170px;
+    height: 100%;
 }
 article{
     display: flexbox;
