@@ -120,3 +120,75 @@ footer{
     text-align: center;
     max-width: 1200px;
 }
+@media (max-width: 700px)
+{
+  header{
+    display: flex;
+    flex-grow: inherit;
+    background-image: linear-gradient(to bottom right, rgb(238, 255, 0) , rgb(11, 87, 21));
+    border: 4px solid rgb(19,129,34);
+    flex-direction: column;
+    height: 30%;
+    width: 98%;
+    border-radius: 10px;
+    padding: 1%;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+  }
+    nav{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(3, 4, 70) , rgb(22, 190, 219));
+    border: 3px solid rgb(3, 3, 3);
+    width: 90%;
+    border-radius: 15px;
+    list-style: none;
+    justify-items: center;
+    text-align: center;
+    
+    }
+    li{
+        display: flex;
+        flex-direction: row;
+        flex-grow: inherit;
+        width: 100%;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-size: 170%;
+    }
+   .dog{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    height: 105%;
+    }
+    .logo{
+        display: flex;
+        flex-direction: row;
+        flex-grow: inherit;
+        height: 90%;
+    }
+    .box1{
+        display: flex;
+        flex-direction: row;
+        flex-grow: inherit;
+        height: 80%;
+        width: 100%;
+        justify-content: center;
+        padding: 2%;
+    }
+    .box2{
+        display: flex;
+        flex-direction: row;
+        flex-grow: inherit;
+        justify-content: center;
+        width: 100%;
+        height: 20%;
+    }
+    .logo:hover{
+        height: 100%;
+    }
+}
