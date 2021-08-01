@@ -1,0 +1,54 @@
+.container{
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+}
+
+header{
+    display: flex;
+    flex-grow: inherit;
+    background-color: rgb(128, 128, 128);
+    border: 4px solid rgb(255,203,0);
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    padding: 2%;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    height: 10%;
+    background-color: rgb(255, 203, 0);
+    border: 5px solid rgb(0,0,0);
+    width: 100%;
+    border-radius: 15px;
+    list-style: none;
+    justify-items: center;
+    text-align: center;
+    
+}
+li{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    width: 100%;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    height: 150px;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    height: 80%;
+    justify-content: center;
+}
+@media screen {
+    
+}
