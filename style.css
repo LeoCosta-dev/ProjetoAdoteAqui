@@ -128,10 +128,15 @@ section{
     align-items: center;
     text-align: center;
     font-size: 200%;
-    color: rgb(20, 76, 160);
+    border: solid 3px rgb(20, 76, 160);
+    background-color: rgba(4, 3, 58, 0.4);
+    color: white;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .lar p{
-    color:black;
+    color:rgb(255, 255, 255);
     font-size: xx-large;
 }
 .amiguinhos{
@@ -141,9 +146,9 @@ section{
     width: 90%;
     height: fit-content;
     justify-items: center;
-    border: rgb(19,129,34) solid 5px;
+    border: rgb(4, 71, 13) solid 5px;
     border-radius: 14px;
-    background-image: linear-gradient(to bottom right, rgb(3, 4, 70) , rgb(22, 190, 219));
+    background-color: rgba(1, 17, 2, 0.3);
     margin-bottom: 10%;
 }
 .amiguinhos p{
@@ -161,7 +166,7 @@ section{
 }
 footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-grow: inherit;
     height: 3%;
     background-image: linear-gradient(to bottom right, rgb(238, 255, 0) , rgb(11, 87, 21));
