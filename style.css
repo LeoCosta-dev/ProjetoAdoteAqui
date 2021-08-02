@@ -38,7 +38,7 @@ nav{
     background-image: linear-gradient(to bottom right, rgb(3, 4, 70) , rgb(22, 190, 219));
     border: 3px solid rgb(3, 3, 3);
     padding: 1%;
-    width: 100%;
+    width: 95%;
     border-radius: 15px;
     list-style: none;
     justify-items: center;
@@ -115,14 +115,19 @@ section{
 }
 .lar{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    width: 90%;
     justify-items: center;
     align-content: center;
     align-items: center;
     text-align: center;
     font-size: 200%;
     color: rgb(20, 76, 160);
+}
+.lar p{
+    color:black;
+    font-size: xx-large;
 }
 .amiguinhos{
     display: flex;
@@ -135,6 +140,10 @@ section{
     border-radius: 14px;
     background-image: linear-gradient(to bottom right, rgb(3, 4, 70) , rgb(22, 190, 219));
     margin-bottom: 10%;
+}
+.amiguinhos p{
+    font: bolder;
+    font-size: xx-large;
 }
 .coluna{
     display: flex;
