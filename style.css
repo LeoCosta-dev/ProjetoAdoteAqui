@@ -134,6 +134,10 @@ section{
     border-radius: 15px;
     margin-top: 40px;
     margin-bottom: 40px;
+    text-shadow: black 1px 2px;
+}
+.lar h1{
+    text-shadow: black 3px 6px 6px;
 }
 .lar p{
     color:rgb(255, 255, 255);
